@@ -10,7 +10,8 @@ class UsersController < ApplicationController
 
   # GET /users/1
   def show
-    render json: @user
+    user = User.select(:id, :name, :created_at, :updated_at).find(params[:id].to_i)
+    render json: user
   end
 
   # POST /users
