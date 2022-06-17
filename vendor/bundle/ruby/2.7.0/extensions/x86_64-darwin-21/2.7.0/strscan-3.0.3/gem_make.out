@@ -1,0 +1,16 @@
+current directory: /Users/funadakiyono/Desktop/programming/api-project/vendor/bundle/ruby/2.7.0/gems/strscan-3.0.3/ext/strscan
+/Users/funadakiyono/.rbenv/versions/2.7.6/bin/ruby -I /Users/funadakiyono/.rbenv/versions/2.7.6/lib/ruby/2.7.0 -r ./siteconf20220616-4440-12nresu.rb extconf.rb
+checking for onig_region_memsize() in ruby.h... yes
+creating Makefile
+
+current directory: /Users/funadakiyono/Desktop/programming/api-project/vendor/bundle/ruby/2.7.0/gems/strscan-3.0.3/ext/strscan
+make "DESTDIR=" clean
+
+current directory: /Users/funadakiyono/Desktop/programming/api-project/vendor/bundle/ruby/2.7.0/gems/strscan-3.0.3/ext/strscan
+make "DESTDIR="
+compiling strscan.c
+linking shared-object strscan.bundle
+
+current directory: /Users/funadakiyono/Desktop/programming/api-project/vendor/bundle/ruby/2.7.0/gems/strscan-3.0.3/ext/strscan
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 strscan.bundle ./.gem.20220616-4440-aw1z6d
